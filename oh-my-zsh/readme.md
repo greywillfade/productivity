@@ -10,7 +10,9 @@ A custom theme for [oh my zsh](https://ohmyz.sh/), which I'm using with [iTerm 2
 # Set the custom theme as active
 * Use `open ~/.zshrc` to open up the hidden zsh settings file. 
 * Set the line `ZSH_THEME="=sally"` to use the name of the custom theme.
+* Use `source ~/.zshrc` to refresh.
 
 # References
 * [Become A Command-Line Power User With Oh My ZSH And Z](https://www.smashingmagazine.com/2015/07/become-command-line-power-user-oh-my-zsh-z/)
 * [Making a custom zsh theme: for fun and aesthetic](https://www.linkedin.com/pulse/making-custom-zsh-theme-fun-aesthetic-md-mohibur-rahman/)
+* [Writing ZSH Themes: A Quickref](https://blog.carbonfive.com/writing-zsh-themes-a-quickref/)
