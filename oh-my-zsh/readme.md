@@ -1,7 +1,6 @@
 A custom theme for [oh my zsh](https://ohmyz.sh/), which I'm using with [iTerm 2](https://iterm2.com/) (to make use of more extensive colours than Terminal offers).
 
-<img width="480" alt="Screenshot 2022-03-03 at 22 19 40" src="https://user-images.githubusercontent.com/2871272/156662581-cfeb569c-04a6-475d-918a-8a16e87405c4.png">
-
+<img width="554" alt="Screenshot 2022-03-04 at 09 34 54" src="https://user-images.githubusercontent.com/2871272/156738120-0ac94185-882b-45de-a6b3-832cd04ff042.png">
 
 # Add in a new theme file
 * Run the command `open ~/.oh-my-zsh/themes`, which will open up the hidden folder containing all of the theme files. Note you can also use other commands like `nano` etc rather than `open`.
@@ -10,6 +9,7 @@ A custom theme for [oh my zsh](https://ohmyz.sh/), which I'm using with [iTerm 2
 # Set the custom theme as active
 * Use `open ~/.zshrc` to open up the hidden zsh settings file. 
 * Set the line `ZSH_THEME="=sally"` to use the name of the custom theme.
+* Uncomment `DISABLE_LS_COLORS="true"` to disable colors in ls.
 * Use `source ~/.zshrc` to refresh.
 
 # References
